@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* base colors */
+
+$colorone: #f58b52;
+$colortwo: #dd5d184f;
+$colorthree: #f3722e;
+$colorfour: #f47f41;
+
+.App {
+  
+  margin-top: 20px;
+  padding: 40px;
+  border-radius: 3px;
+  box-shadow: #969291be 5px 5px 5px 2px ;
+  background-color: $colorfour;
+ 
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexitem {
+  width: 50%;
+  padding: 20px;
+  margin: 0 5px;
+  border: 1px solid silver;
+}
+
+.borderbox {
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid silver;
+}
+
+.point {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.nav_bar {
+  background-color: $colorfour;
+  height: 6rem;
+  display: flex;
+  border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: #969291be 5px 5px 5px 2px ;
+}
+
+.nav_bar_ul {
+  list-style: none;
+  align-self: center;
+  
+  li {
+    display: inline;
+    margin: 2rem;
+    font-size: 2vw;
+    
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.logo {
+  height: 6em;
+  
+  padding-left: 2em;
+}
+
+.Main_content_container {
+ 
+  color: rgba(255, 255, 255, 0.726);
+  margin: 20px;
+  
+  
+  
+}
+
+.header_star{
+  color: $colorthree;
+}
+
